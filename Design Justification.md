@@ -52,3 +52,9 @@
 
 - The item class has basic information on the products.
 - The stockLevel attribute is used to calculate the stock level after the dealer restocks or the customer purchases the item.
+
+## transaction
+>list<cart>||
+>date ||
+
+- will be used to write to files for monthly reports
