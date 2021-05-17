@@ -16,6 +16,8 @@
 - The Dealer is regarded as the administrator or the owner of the shop .
 - He/she will have basic attributes to gain access to complete functions relevant to the business.
 - The login page will take into account the Dealers credentials and take him to the admin panel
+- The admin panel will allow the Dealer to view items currently in stock,items at reorder level and add items or remove items.
+- The admin panel will also give the option for the dealer to view monthly transaction information in text Files.
 
 ## Customer class
 > Name
