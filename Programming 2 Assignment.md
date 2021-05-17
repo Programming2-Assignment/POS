@@ -1,16 +1,16 @@
 # Programming 2 Assignment
 ## POS System in Java
 ## Group Members
-> Obiora Kenneth Omalu - 220074895
+> Obiora Kenneth Omalu - 220074895 ||
 > Sharmillah Viringa - 220070040 
 
 ## Justification Of Design Pattern
 ### The following Objects will be created as stated below with their respective attributes:
 ## Dealer
-> Name
-> Surname
-> password
-> username 
+> Name ||
+> Surname ||
+> password ||
+> username ||
 
 
 - The Dealer is regarded as the administrator or the owner of the shop .
@@ -20,20 +20,20 @@
 - The admin panel will also give the option for the dealer to view monthly transaction information in text Files.
 
 ## Customer class
-> Name
->Surname
->username
->password
-> bankAccount
+> Name ||
+>Surname ||
+>username ||
+>password ||
+> bankAccount ||
 
 - The Customer will have extend the bankAccount class which will have the relevant details concerning the payment.
 - The customer will be able to purchase items and receive a reciept as well as a bank statement.
 - The password and username is used to make sure that other customers do not gain access to other customers accounts.
 
 ## BankAccount Class
-> cardNumber
->pin
-> balance
+> cardNumber ||
+>pin ||
+> balance ||
 
 - A bankAccount is assigned to each customer.
 - the pin is defined by the customer and allows the payment to be completed if the password is correct and if the balance is enough to facilitate the transaction
@@ -41,14 +41,14 @@
 
 
 ## Cart Class
-> item
+> item ||
 
 - The cart class contains an list of items selected by the customer.
 
 ## Item
-> name
-> price
-> stockLevel
+> name ||
+> price ||
+> stockLevel ||
 
 - The item class has basic information on the products.
 - The stockLevel attribute is used to calculate the stock level after the dealer restocks or the customer purchases the item.
